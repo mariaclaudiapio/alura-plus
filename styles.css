@@ -23,6 +23,8 @@ body {
     background-image: url(./img/background.png);
     background-repeat: no-repeat;
     background-size: contain;
+    align-items: center;
+    text-align: center;
 }
 
 .container {
@@ -31,18 +33,24 @@ body {
     grid-template-columns: 50% 50%;
 }
 
+.container__caixa {
+    margin: 0 6em;
+}
+
 .container__titulo {
     font-size: 28px;
     font-family: 700;
 }
 
 .container__botao {
-    background-color: var(--botao-azul);    
+    background-color: var(--botao-azul);
+    margin-bottom: 1em;    
 }
 
 .container__botao--secundario {
     background-color: transparent;    
     border: solid 2px var(--branco-principal);
+    margin-bottom: 1em; 
 }
 
 .container__botao,
@@ -57,4 +65,36 @@ body {
 .container__aviso {
     font-size: 12px;
     color: var(--cinza-secundario);
+}
+
+.container__imagem {
+    margin: 1em 0 2em 0;
+}
+
+.secundario__imagem {
+    width: 80%;
+}
+
+.secundario {
+    align-items: center;
+    margin: 0 10em;
+}
+
+.descricao__titulo {
+    font-weight: 700;
+    font-size: 48px;
+    margin-bottom: 0.2em;
+}
+
+.descricao__texto {
+    color: var(--cinza-secundario);
+}
+
+.secundario__botao {
+    display: inline-block;
+    margin-top: 1em;
+}
+
+.container__descricao {
+    padding: 2em;
 }
