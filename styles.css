@@ -165,3 +165,50 @@ body {
 .lista__link:active {
     color: var(--botao-efeito);
 }
+
+@media (max-width: 800px) {
+    html {
+        width: 100vw;
+    }
+
+    .container {
+        background-size: contain;
+        background-position: center top;
+    }
+    
+    .container,
+    .secundario {
+        display: flex;
+        flex-direction: column; 
+        align-items: center;
+        text-align: center;
+        width: 100vw;
+        margin: 0 auto;        
+    }
+
+    .container {
+        padding-top: 12em;
+    }
+
+    .dispositivos__lista {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 auto;        
+    }
+
+    .rodape__imagem {
+        width: 30vw;
+        text-align: center;
+        margin: 20% auto;
+    }
+
+    .rodape {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .rodape__lista {
+        display: none;
+    }    
+}
