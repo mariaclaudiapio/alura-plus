@@ -22,7 +22,7 @@ Site desenvolvido, usando HTML e CSS, durante o curso "**HTML e CSS: praticando 
 
 * Clique no arquivo "index.html". Assim, o site abrirá no seu navegador.
 
-* *Lembrando também que você pode conferir o deploy do site no link:* https://mariaclaudiapio.github.io/Alura-Plus/. 
+* *Lembrando também que você pode conferir o deploy do site no link:* https://mariaclaudiapio.github.io/alura-plus/. 
 
   
 
