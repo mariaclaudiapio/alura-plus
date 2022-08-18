@@ -5,7 +5,7 @@
 Site desenvolvido, usando HTML e CSS, durante o curso "**HTML e CSS: praticando HTML/CSS**" da Alura. Para a construção da página, foram usadas ferramentas modernas do CSS, como os display grid e flex. 
 
 <p align="center">
- <img width="800" src="banner_aluraPlus.gif">
+ <img width="80%" src="banner_aluraPlus.gif">
 </p>
 
 
